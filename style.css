@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.form{
+    font-family: 'Ubuntu';
+    width: 400px;
+    height: 400px;   
+    display: grid;
+    /* align-content: center; */
+    padding-top: 40px;
+    justify-content: center;
+
+    /* From https://css.glass */
+background: rgba(185, 121, 121, 0.25);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.1px);
+-webkit-backdrop-filter: blur(1.1px);
+border: 1px solid rgba(192, 113, 113, 0.69);
+
+}
+
+.Fname::placeholder, .lname::placeholder, .email::placeholder, .password::placeholder{
+    font-family: 'Ubuntu';
+}
+
+.Fname{
+    width: 200px;
+    height: 20px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    font-family: 'Ubuntu';
+}
+.lname{
+    width: 200px;
+    height: 20px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    font-family: 'Ubuntu';
+}
+.email{
+    width: 200px;
+    height: 20px;
+    margin-bottom: 20px;
+    margin-left: 16px;
+    padding-left: 12px;
+    font-family: 'Ubuntu';
+}
+.password{
+    width: 200px;
+    height: 20px;
+    margin-bottom: 20px;
+    padding-left: 12px;
+    font-family: 'Ubuntu';
+}
+.Fname:active{
+    border: 0.2px solid;
+    border-color: rgb(21, 81, 222);
+}
+button{
+    width: 140px;
+    height: 36px;
+    border-style: none;
+    margin-top: 12px;
+    border-radius: 12px;
+    font-family: 'Ubuntu';
+    margin-left: 54px;
+}
+button:hover{
+    background-color: rgb(74, 155, 128);
+}
