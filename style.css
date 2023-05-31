@@ -34,30 +34,30 @@ border: 1px solid rgba(192, 113, 113, 0.69);
 }
 
 .Fname{
-    width: 200px;
-    height: 20px;
+    width: 240px;
+    height: 30px;
     margin-bottom: 20px;
     padding-left: 12px;
     font-family: 'Ubuntu';
 }
 .lname{
-    width: 200px;
-    height: 20px;
+    width: 240px;
+    height: 30px;
     margin-bottom: 20px;
     padding-left: 12px;
     font-family: 'Ubuntu';
 }
 .email{
-    width: 200px;
-    height: 20px;
+    width: 240px;
+    height: 30px;
     margin-bottom: 20px;
-    margin-left: 16px;
+    /* margin-left: 16px; */
     padding-left: 12px;
     font-family: 'Ubuntu';
 }
 .password{
-    width: 200px;
-    height: 20px;
+    width: 240px;
+    height: 30px;
     margin-bottom: 20px;
     padding-left: 12px;
     font-family: 'Ubuntu';
@@ -76,5 +76,5 @@ button{
     margin-left: 54px;
 }
 button:hover{
-    background-color: rgb(74, 155, 128);
+    background-color: rgb(184, 95, 170);
 }
